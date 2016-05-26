@@ -1,0 +1,78 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:#333 ;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #b3b3ff;
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+/* all of the above is css for the navigation bar */
+
+
+
+
+#nav1 {
+background-color: #1affd1 ;
+}
+
+#nav3 {
+background-color: #1affd1 ;
+}
+
+body {
+background-color: #cc99ff;
+/* changes the background color for each section */
+}
+
+body {
+font-size: 125% ;
+font-family: Futura ;
+}
+/* changes the font size and the font for the entire site */
+
+h2, h1 {
+font-family: Desdemona ;
+font-size: 250%
+}
+/* changes the font and font size for the headers */
+
+#link a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+ }
+#link a:hover {
+    background-color: #404040;
+}
+/* css for the links to the websites */
+
+
+
+h2, #howto, #parallax, #java {
+text-align: center;
+}
+/* allows for the headers and the pictures that were given div ids to be centered */
+
